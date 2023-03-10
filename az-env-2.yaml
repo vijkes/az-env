@@ -20,7 +20,7 @@ stages:
     displayName: Deploy
     environment: Staging
     strategy:
-      runonce:
+      runOnce:
         deploy:
           steps:
           - script: echo This is a DEPLOYMENT job
