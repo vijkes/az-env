@@ -24,4 +24,4 @@ stages:
         deploy:
           steps:
           - script: echo This is a DEPLOYMENT job
-            displayname: 'Deploy project'
+            displayName: 'Deploy project'
