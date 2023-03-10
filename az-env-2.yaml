@@ -11,7 +11,7 @@ stages:
     displayName: Build  
     steps:
     - script: echo This-is-a-BUILD job
-      displayName: - 'Build project'
+      displayName: 'Build project'
 
 - stage: CD
   displayName: CD Stage
